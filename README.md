@@ -12,9 +12,6 @@ METHODOLOGY:
 
 RESULT: 
 <img width="583" alt="eartquake atlas comp tt" src="https://github.com/Rohanpophale/EARTHQUAKE_ATLAS-A_REGION-WISE_ANALYSIS/assets/97818946/77cb7791-2793-4d81-bfc1-0ffcbfe94a80">
-
 Highlight the key finding: After evaluating the clustering algorithms, K-Means demonstrated the highest efficiency with a silhouette score of 0.737.
 Include the execution time of K-Means (1.99 seconds), showcasing not just the effectiveness but also the computational efficiency of the algorithm.
 
-This is a MACHINE LEARNING analysis based project in which various clustering algorithms are checked for the highest efficiency according to are datasets.
-And efficiency is calculated by using SILHOUETTE SCORE in which we concluded that according to dataset used K-MEANS clustering algorithm gives the highest efficiency of 0.737 and the execution time of 1.99 seconds
