@@ -32,10 +32,3 @@ Include the execution time of K-Means (1.99 seconds), showcasing not just the ef
 <img width="960" alt="ss for github earthquake atlas1" src="https://github.com/Rohanpophale/EARTHQUAKE_ATLAS-A_REGION-WISE_ANALYSIS/assets/97818946/11cc18e7-e9c9-4b3d-8b5e-45b4feede788">
 
 <img width="945" alt="ss for github earthquake atlas2" src="https://github.com/Rohanpophale/EARTHQUAKE_ATLAS-A_REGION-WISE_ANALYSIS/assets/97818946/d483c7d8-c9b2-4387-8e59-c756529c6694">
-
-
-
-FILE STRUCTURE:
-
-
-
