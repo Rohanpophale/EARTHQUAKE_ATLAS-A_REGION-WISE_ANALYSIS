@@ -1,24 +1,24 @@
 # EARTHQUAKE_ATLAS-A_REGION-WISE_ANALYSIS
 
-PROJECT TITLE: 
+<h3>TITLE:</h3> 
 
 EARTHQUAKE_ATLAS-A_REGION-WISE_ANALYSIS.
 
 
 
-INTRODUCTION: 
+<h3>INTRODUCTION:</h3> 
 
 Earthquakes can cause widespread destruction and pose a significant threat and they are unpredictable and occur without warning hence it is essential to establish a system that can assist to find out regions prone to earthquakes. Hence use historical data to identify the patterns and intensity of disasters occurred in a region in the past and clustering can be used to group regions together based on disasters they are prone to.
 
 
 
-METHODOLOGY:
+<h3>METHODOLOGY:</h3>
 
 ![EARTHQUAKE-ATLAS-METHODOLOGY](https://github.com/Rohanpophale/EARTHQUAKE_ATLAS-A_REGION-WISE_ANALYSIS/assets/97818946/87feef76-3f46-4dd4-87df-826dacf499d2)
 
 
 
-RESULT: 
+<h3>RESULT:</h3>
 
 <img width="583" alt="eartquake atlas comp tt" src="https://github.com/Rohanpophale/EARTHQUAKE_ATLAS-A_REGION-WISE_ANALYSIS/assets/97818946/77cb7791-2793-4d81-bfc1-0ffcbfe94a80">
 
@@ -27,7 +27,7 @@ Include the execution time of K-Means (1.99 seconds), showcasing not just the ef
 
 
 
-OUTPUT:
+<h3>OUTPUT:</h3>
 
 <img width="960" alt="ss for github earthquake atlas1" src="https://github.com/Rohanpophale/EARTHQUAKE_ATLAS-A_REGION-WISE_ANALYSIS/assets/97818946/11cc18e7-e9c9-4b3d-8b5e-45b4feede788">
 
