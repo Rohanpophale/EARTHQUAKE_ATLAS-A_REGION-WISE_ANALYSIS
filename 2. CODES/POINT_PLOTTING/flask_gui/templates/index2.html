@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Earthquake Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      html{
+        padding: 0%;
+        margin: 0%;
+      }
+      /* Style the container that holds the search bar and the map */
+      .container {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+      }
+
+      /* Style the left side of the container, which holds the search bar */
+      .left {
+        /* flex: 1; */
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+      }
+
+      /* Style the right side of the container, which holds the map */
+      .right {
+        /* flex: 3; */
+        width: 80%;
+        height: auto;
+        background-color: black;
+      }
+
+      /* Style the search bar */
+      input[type="text"] {
+        padding: 12px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+        margin-left: 40px;
+      }
+
+      input[type="submit"] {
+        background-color: #071407;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 40px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: aquamarine;
+        border: 2px solid black;
+        color: black;
+      }
+
+      label{
+        margin-left: 40px;
+      }
+      #id{
+        align-items: center;
+        height: 100%;
+        border: 3px solid salmon;
+      }
+      .left_up{
+        display: flex;
+        flex-direction: column;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="left_up">
+          <h1>Earthquake Map</h1>
+          <form action="/earthquake_results" method="post">
+            <label for="place">Enter a place name:</label>
+            <input type="text" id="place" name="place">
+            <input type="submit" value="Generate Map">
+          </form>
+        </div>
+
+        <div class="left_down">
+          <h1>This is left down part</h1>
+        </div>
+      
+      </div>
+      <div class="right">
+        <div id="map"></div>
+        {{ my_map | safe }}
+      </div>
+    </div>
+  </body>
+</html>

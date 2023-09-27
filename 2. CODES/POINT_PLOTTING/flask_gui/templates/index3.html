@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <title>Earthquake Atlas</title>
+        <style>
+            html{
+                margin: 0;
+                padding: 0;
+                top: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                flex-direction: column;
+            }
+            body{
+                font-family: Stella Nova Black;
+            }
+            .section2{
+                margin: 0;
+                padding: 0;
+                top: 0;
+                left: 0;
+                height: 100%;
+                border: 2px solid greenyellow;
+            }
+            .nav_bar{
+                margin: 0;
+                padding: 0;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 15%;
+                flex-direction: row;
+                display: flex;
+                background-color: black;
+                position: absolute;
+            }
+            .nav-heading{
+                color: aliceblue;
+                position: absolute;
+                left: 38vw;
+                letter-spacing: 2px;
+            }
+            .logo{
+                background-image: url('../static/logo.ico');
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: absolute;
+                width: 57;
+                height: 57;
+                margin-left: 20px;
+                margin-top: 8px;
+            }
+            .search_bar_btn{
+                padding: 4vh;
+                width:85%;
+            }
+            .map{
+                height: auto;
+                width: auto;
+                align-self: center;
+            }
+            input[type="text"] {
+                margin-top: 20px;
+                padding-left: 5px;
+                width: 15vw;
+                height: 30px;
+                font-family: Aileron;
+                background-color: #EAB464;
+                border: none;
+                border-radius: 5px;
+                color: black;
+                /* cursor: pointer; */
+            }
+            ::placeholder{
+                color: black;
+            }
+            input[type="submit"] {
+                margin-top: 3vh;
+                margin-left: 6vh;
+                width: 120px;
+                height: 30px;
+                font-family: Aileron;
+                background-color: #040926;
+                color: aliceblue;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover {
+                background-color: #251351;
+            }
+            .filter_display{
+                display: flex;
+                left: 0;
+                right: 0;
+            }
+            .filter_panel{
+                top: 15%;
+                left: 0;
+                width: 20%;
+                height: 100%;
+                background-color: #458EF9;
+                position: absolute;
+            }
+            .main_display{
+                top: 15%;
+                right: 0;
+                width: 80%;
+                height: 100%;
+                background-color: #F0EDEE;
+                /* border: 2px solid rgb(109, 32, 176); */
+                position: absolute;
+            }
+            .map{
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav_bar">
+            <div class="logo"></div>
+            <h1 class="nav-heading">EARTHQUAKE ATLAS</h1>
+            
+        </div>
+        <!-- <section class="section2"> -->
+            <div class="filter_display">
+                <div class="filter_panel">
+                    <div class="search_bar_btn">
+                        <form action="/earthquake_results" method="post">
+                            <input type="text" id="place" name="place" placeholder="Enter State Name">
+                            <input type="submit" value="Generate Map">
+                        </form>
+                    </div>
+                </div>
+                <div class="main_display">
+                    <!-- <div class="map"> -->
+                        {{ my_map | safe }}
+                    <!-- </div> -->
+                </div>
+            </div>
+        <!-- </section> -->
+    </body>
+</html>

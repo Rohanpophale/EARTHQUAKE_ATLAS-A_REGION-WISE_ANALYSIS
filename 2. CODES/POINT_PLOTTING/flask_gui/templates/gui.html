@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My GUI</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px;
+			background-color: #eee;
+		}
+
+		.logo {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.search-box {
+			display: flex;
+			align-items: center;
+			margin-right: 10px;
+		}
+
+		.search-box input[type="text"] {
+			padding: 5px;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+			margin-right: 10px;
+		}
+
+		.search-results {
+			/* display: flex;	 */
+			height: 400px;
+			width: auto;
+			padding: 10px;
+			background-color: blue;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+		}
+
+		.map {
+			/* display: flex; */
+			height: 400px;
+			width: auto;
+			padding: 10px;
+			background-color: red;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+		}
+		.filter_display_panel{
+			display: flex;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<div class="logo">
+			<img src="logo.png" alt="Logo">
+		</div>
+		<div class="search-box">
+			<input type="text" placeholder="Search...">
+			<button>Search</button>
+		</div>
+	</header>
+
+	<section class="filter_display_panel">
+		<section class="search-results">
+			<!-- Search results go here -->
+			<h1>rohan</h1>
+		</section>
+
+		<section class="map">
+			<h1>rohan</h1>
+		</section>
+	</section>
+</body>
+</html>
