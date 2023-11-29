@@ -1,5 +1,8 @@
 # EARTHQUAKE_ATLAS-A_REGION-WISE_ANALYSIS
 
+<h3>COPYRIGHT PUBLICATION</h3>
+https://drive.google.com/drive/folders/1MvSQZ7jqR5pvgjoHYh9aH8d1-3jkOu6o?usp=sharing
+
 <h3>TITLE:</h3> 
 
 EARTHQUAKE_ATLAS-A_REGION-WISE_ANALYSIS.
